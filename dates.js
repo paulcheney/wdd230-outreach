@@ -19,6 +19,7 @@ return `${m} ${d}, ${y}`
 }
 
 document.querySelector('#sendWelcomeEmail').innerHTML = readableDate(blockStart, -3)
+document.querySelector('#classStart2').innerHTML = readableDate(blockStart, 0)
 
 document.querySelector('#classStart').innerHTML = readableDate(blockStart, 0)
 document.querySelector('#classEnd').innerHTML = readableDate(blockEnd, 0)
